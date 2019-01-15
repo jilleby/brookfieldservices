@@ -27,7 +27,7 @@ url: "https://brookfieldservices.net" # the base hostname & protocol for your si
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.14.2"
 
 
 plugins:
