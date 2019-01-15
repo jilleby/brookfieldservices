@@ -17,9 +17,6 @@ title: Brookfield Services
 email: brookfieldservices01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Home services
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brookfieldservices.net" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -29,7 +26,9 @@ url: "https://brookfieldservices.net" # the base hostname & protocol for your si
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.14.2"
 
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "sunrise"
+logo: "/assets/images/household-services.png"
+
 
 
 plugins:
