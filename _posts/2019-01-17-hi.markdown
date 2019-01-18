@@ -3,5 +3,6 @@ layout: posts
 title:  "hello!"
 date:   2019-01-17 14:33:44 -0400
 categories: update
+comments: true
 ---
 HI THERE
