@@ -58,7 +58,7 @@ staticman:
       type               :  "date"
       options:
         format           : "iso8601"  # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : "https://bsstaticman.herokuapp.com/v3/entry/"
+  endpoint               : "https://bsstaticman.herokuapp.com/v3/github/entry/"
 reCaptcha:
   siteKey                :
   secret                 :
