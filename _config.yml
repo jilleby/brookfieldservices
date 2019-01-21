@@ -24,7 +24,8 @@ url                      : "https://brookfieldservices.net" # the base hostname 
 baseurl                  : "" # the subpath of your site, e.g. /blog
 repository               : "jilleby/brookfieldservices" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/household-services.png"
+#logo                     : "/assets/images/household-services.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -292,5 +293,16 @@ defaults:
       read_time: false
       comments: true
       share: true
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
       related: true
 
+
+
+include: ["_pages"]
