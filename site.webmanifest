@@ -1,6 +1,6 @@
 {
-    "name": "B Services",
-    "short_name": "B Services",
+    "name": "B. Services",
+    "short_name": "B. Services",
     "icons": [
         {
             "src": "/android-chrome-96x96.png",
@@ -8,7 +8,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#eeeeee",
-    "background_color": "#eeeeee",
+    "theme_color": "#ffffce",
+    "background_color": "#ffffce",
     "display": "standalone"
 }
